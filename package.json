@@ -1,6 +1,6 @@
 {
   "name": "cli-evo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Is a package that can help you make CLI application~!",
   "main": "index.js",
   "scripts": {
