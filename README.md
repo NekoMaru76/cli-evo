@@ -29,8 +29,8 @@ To ask questions! You also can add options, autoCorrect and etc!
 - questions (Object [Array])
 To ask questions but with table~!
 
-### Single#Confirm(questions)
-- questions (Object [JSON])
+### Multi#Confirm(questions)
+- questions (Object [Array])
 To ask confirmations. (y/N)
 
 ## Example
