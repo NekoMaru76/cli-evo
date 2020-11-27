@@ -1,7 +1,7 @@
 const cli = require(`${__dirname}/index.js`);
 
 (async () => {
-  await cli.prompt([{
+  await cli.multi.prompt([{
     question: "How you greeting?",
     textColor: {
       question: "green",
@@ -46,7 +46,7 @@ const cli = require(`${__dirname}/index.js`);
     autoCorrect: 0.50,
     onlyOption: true
   }]);
-  await cli.table({
+  await cli.single.table({
     question: "What's your breakfast schedules?",
     textColor: {
       question: "green",
@@ -86,6 +86,9 @@ const cli = require(`${__dirname}/index.js`);
       }
     ],
     options: ["Sandwich", "Eag", "None", "Fried Rice"]
+  });
+  await cli.single.confirm({
+    question: "Lol"
   });
   process.exit();
 })();

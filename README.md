@@ -9,13 +9,29 @@ npm install cli-evo
 ```
 
 ## Methods
-### Prompt(questions)
+### Single#Prompt(question)
+- question (Object [JSON]/String)
+To ask a question! You also can add options, autoCorrect and etc!
+
+### Single#Table(question)
+- question (Object [JSON])
+To ask question but with table~!
+
+### Single#Confirm(question)
+- question (Object [JSON])
+To ask confirmation. (y/N)
+
+### Multi#Prompt(questions)
 - questions (Object [Array])
 To ask questions! You also can add options, autoCorrect and etc!
 
-### Table(config)
-- config (Object [JSON])
-To ask question but with table~!
+### Multi#Table(questions)
+- questions (Object [Array])
+To ask questions but with table~!
+
+### Single#Confirm(questions)
+- questions (Object [JSON])
+To ask confirmations. (y/N)
 
 ## Example
 To see example of how to use, go to test.js xD
