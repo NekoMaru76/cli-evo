@@ -14,5 +14,20 @@
     "string-similarity": "^4.0.3",
     "table": "^6.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoMaru76/cli-evo.git"
+  },
+  "keywords": [
+    "cli",
+    "evodev"
+  ],
+  "bugs": {
+    "url": "https://github.com/NekoMaru76/cli-evo/issues"
+  },
+  "homepage": "https://github.com/NekoMaru76/cli-evo#readme"
 }
